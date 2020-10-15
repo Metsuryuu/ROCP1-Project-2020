@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="admin" method="get">
+		<table border="1px">
+			
+			<h3>Search</h3>	
+					
+			<label for="Search">Search by </label>
+			
+			<select name="account" id="accounts" form="accountform">
+				<option value="User">User</option>
+				<option value="ID">ID</option>
+				<option value="Status">Status</option>
+				<option value="all">Get all users</option>
+			</select>
+			
+			<tr>
+			<td><input type="text" name="search" placeholder="Enter filter"/></td>
+			</tr>
+				
+			<tr>
+			<td style="text-align:center"><input type="submit" value="Search"></td>
+			</tr>
+				
+		</table>
+	</form>
+
+</body>
+</html>
